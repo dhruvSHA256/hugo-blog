@@ -2,8 +2,8 @@
 author:
   name: "Dhruv Sharma"
 date: 2022-07-17
-linktitle: hello world
 title: hello world
+linktitle: hello world
 katex: true
 type:
 - post
