@@ -1,6 +1,7 @@
 baseURL = "https://dhruvsha256.github.io/"
 title   = "Dhruv.Sha256"
 languageCode = "en-us"
+# theme = "hello-friend"
 theme = "hello-friend-ng"
 
 PygmentsCodeFences = true

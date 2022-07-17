@@ -5,3 +5,6 @@
 	path = dhruvsha256_blog/public
 	url = git@github.com:dhruvSHA256/dhruvsha256.github.io
 	branch = main
+[submodule "dhruvsha256_blog/themes/hello-friend"]
+	path = dhruvsha256_blog/themes/hello-friend
+	url = https://github.com/panr/hugo-theme-hello-friend.git
