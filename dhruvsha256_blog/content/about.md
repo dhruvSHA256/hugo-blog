@@ -1,7 +1,7 @@
 ---
 author:
   name: "Dhruv Sharma"
-title: "About Me"
+title: "hello stranger"
 date: 2022-07-17
 ---
 

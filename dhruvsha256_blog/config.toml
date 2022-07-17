@@ -1,5 +1,5 @@
 baseURL = "https://dhruvsha256.github.io/"
-title   = "Dhruv.Sha256"
+title   = "dhruv.Sha256"
 languageCode = "en-us"
 # theme = "hello-friend"
 theme = "hello-friend-ng"
@@ -102,7 +102,7 @@ disableHugoGeneratorInject = false
 
   # Toggle this option need to rebuild SCSS, requires extended version of Hugo
   #
-  justifyContent = false  # Set "text-align: justify" to .post-content.
+  justifyContent = true  # Set "text-align: justify" to .post-content.
 
   # Custom footer 
   # If you want, you can easily override the default footer with your own content. 
@@ -188,3 +188,7 @@ disableHugoGeneratorInject = false
     identifier = "posts"
     name       = "Posts"
     url        = "posts/"
+  [[menu.main]]
+    identifier = "resume"
+    name       = "Resume"
+    url        = "resume"
