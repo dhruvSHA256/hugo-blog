@@ -8,7 +8,7 @@ PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 
 paginate  = 10
-rssLimit  = 10  # Maximum number of items in the RSS feed.
+rssLimit  = 20  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
 
@@ -108,10 +108,10 @@ disableHugoGeneratorInject = false
   # If you want, you can easily override the default footer with your own content. 
   #
   [params.footer]
-    trademark = true
-    rss = true
-    copyright = true
-    author = true
+    trademark = false
+    rss = false
+    copyright = false
+    author = false
 
     topText = []
     bottomText = []
@@ -128,11 +128,11 @@ disableHugoGeneratorInject = false
     logoText     = "$ cd /home/"
     logoHomeLink = "/"
     # Set true to remove the logo cursor entirely.
-    logoCursorDisabled = true
+    logoCursorDisabled = false
     # Set to a valid CSS color to change the cursor in the logo.
-    # logoCursorColor    = "#67a2c9"
+    logoCursorColor    = "#67a2c9"
     # Set to a valid CSS time value to change the animation duration, "0s" to disable.
-    # logoCursorAnimate  = "2s"
+    logoCursorAnimate  = "2s"
 
   # Commento is more than just a comments widget you can embed — 
   # it’s a return to the roots of the internet. 
@@ -192,3 +192,7 @@ disableHugoGeneratorInject = false
     identifier = "resume"
     name       = "Resume"
     url        = "resume"
+  [[menu.main]]
+    identifier = "rss"
+    name       = "Rss"
+    url        = "posts/index.xml"
