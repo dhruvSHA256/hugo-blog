@@ -1,6 +1,5 @@
 ---
-author:
-  name: "Dhruv Sharma"
+author: "Dhruv Sharma"
 date: 2022-07-17
 title: hello world
 linktitle: hello world

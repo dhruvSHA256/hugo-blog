@@ -1,6 +1,7 @@
 ---
 title: "Absurdism Extentialism Nihilism"
 date: 2022-07-17T23:03:04+05:30
+author: "Dhruv Sharma"
 toc: false
 images:
 tags:

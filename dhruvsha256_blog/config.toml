@@ -4,8 +4,8 @@ languageCode = "en-us"
 # theme = "hello-friend"
 theme = "hello-friend-ng"
 
-PygmentsCodeFences = true
-PygmentsStyle = "monokai"
+# PygmentsCodeFences = true
+# PygmentsStyle = "solarized"
 
 paginate  = 10
 rssLimit  = 20  # Maximum number of items in the RSS feed.
@@ -109,7 +109,7 @@ disableHugoGeneratorInject = false
   #
   [params.footer]
     trademark = false
-    rss = false
+    rss = true
     copyright = false
     author = false
 
@@ -177,22 +177,19 @@ disableHugoGeneratorInject = false
   [languages.en]
     subtitle  = "Dhruv Sha256"
     weight    = 1
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    copyright = ""
+    # copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 [menu]
   [[menu.main]]
     identifier = "about"
     name       = "About"
-    url        = "about/"
+    url        = "/about"
   [[menu.main]]
     identifier = "posts"
     name       = "Posts"
-    url        = "posts/"
+    url        = "/posts"
   [[menu.main]]
     identifier = "resume"
     name       = "Resume"
-    url        = "resume"
-  [[menu.main]]
-    identifier = "rss"
-    name       = "Rss"
-    url        = "posts/index.xml"
+    url        = "/resume"

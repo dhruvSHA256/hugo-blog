@@ -1,6 +1,5 @@
 ---
-author:
-  name: "Dhruv Sharma"
+author: "Dhruv Sharma"
 date: 2022-07-18
 title: Map, Filter, Reduce in python
 type:
